@@ -7,7 +7,7 @@ var letters = new Object;
 function countLetters(string){
   var splitString = string.split(" ").join("")
     for (var i = 0; i < splitString.length; i++) {
-      var l = string.charAt(i)
+      var l = splitString.charAt(i)
       letters[l] = (isNaN(letters[l]) ? 1 : letters[l] + 1);
       }
       return(letters);

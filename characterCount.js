@@ -14,7 +14,7 @@ function countLetters(string){
 }
 
 function print(output){
-console.log(output)
+  console.log(output)
 }
 
 
